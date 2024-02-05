@@ -1,0 +1,47 @@
+body {
+   font-family: Arial, sans-serif;
+   background-color: rgb(29, 29, 29);
+   margin: 0;
+   padding: 0;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+
+
+}
+
+.cell {
+   width: 10px;
+   height: 10px
+}
+
+.h1 {
+   color: white;
+   margin-bottom: 20px;
+}
+
+
+.empezar,
+.parar {
+   width: 120px;
+   margin-top: 20px;
+   padding: 10px;
+   background-color: goldenrod;
+   color: white;
+   border: none;
+   cursor: pointer;
+   font-size: 20px;
+   font-weight: bold;
+   border-radius: 5px;
+}
+
+
+.viva {
+   background-color: goldenrod;
+}
+
+.muerta {
+   background-color: rgb(29, 29, 29);
+}
