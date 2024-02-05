@@ -1,6 +1,5 @@
 var sizeX = 60;
 var sizeY = 30;
-
 var generation = 0;
 var htmlElements;
 var cells;
